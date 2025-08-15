@@ -71,7 +71,7 @@ export default function BaptistePage() {
                     Veux-tu être mon garçon d'honneur ?
                   </p>
                   <p className="animate-zoom-in text-yellow-300" style={{ animationDelay: "3s" }}>
-                    Direction Silver III
+                    Clonnax, Direction Silver III
                   </p>
                 </div>
               </div>
