@@ -67,12 +67,12 @@ export default function GregoirePage() {
             <div className="animate-bounce-in">
               <div className="bg-white/95 p-4 md:p-8 rounded-2xl border-8 border-blue-500 mb-6 md:mb-8 shadow-2xl">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-blue-600 mb-4 md:mb-6 roblox-font">
-                  🎯 MISSION ÉPIQUE 🎯
+                  GRANNY
                 </h1>
                 <div className="text-sm sm:text-base md:text-xl lg:text-2xl text-gray-800 space-y-2 md:space-y-4 font-bold">
                   <p className="animate-pop-in">Salut Grégoire !</p>
                   <p className="animate-pop-in" style={{ animationDelay: "1s" }}>
-                    J'ai une mission ultra importante pour toi...
+                    J'ai une mission contre des Robux
                   </p>
                   <p
                     className="animate-pop-in text-blue-600 text-base sm:text-lg md:text-2xl lg:text-3xl"
@@ -81,7 +81,7 @@ export default function GregoirePage() {
                     Veux-tu être mon garçon d'honneur ?
                   </p>
                   <p className="animate-pop-in text-green-600" style={{ animationDelay: "3s" }}>
-                    Ce sera l'aventure de notre vie ! 🎮💍
+                    Sinon Granny va te poursuivre
                   </p>
                 </div>
               </div>
@@ -95,14 +95,14 @@ export default function GregoirePage() {
             >
               <Button
                 className="bg-green-500 hover:bg-green-400 text-white font-bold py-3 md:py-4 px-6 md:px-8 text-sm md:text-xl border-4 border-green-700 roblox-button w-full sm:w-auto"
-                onClick={() => alert("🎉 ROBUX EARNED! Merci Grégoire! Tu vas être un garçon d'honneur de boss! 👑")}
+                onClick={() => alert("1 million de ROBUX")}
               >
                 ✅ ACCEPTER
               </Button>
               <Button
                 variant="destructive"
                 className="bg-red-500 hover:bg-red-400 text-white font-bold py-3 md:py-4 px-6 md:px-8 text-sm md:text-xl border-4 border-red-700 roblox-button w-full sm:w-auto"
-                onClick={() => alert("😢 Game Over... mais on restera toujours des amis de Roblox!")}
+                onClick={() => alert("Tu seras le prisonnier, je serais le policier")}
               >
                 ❌ REFUSER
               </Button>

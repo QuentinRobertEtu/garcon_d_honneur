@@ -57,7 +57,7 @@ export default function BaptistePage() {
             <div className="animate-slide-in-left">
               <div className="bg-gradient-to-r from-orange-600/90 to-blue-600/90 p-4 md:p-8 rounded-xl border-4 border-white/50 mb-6 md:mb-8 backdrop-blur-sm">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-4 md:mb-6 rocket-league-font">
-                  🚀 MATCH SPÉCIAL 🚀
+                  Promis une dernière avant de dormir
                 </h1>
                 <div className="text-sm sm:text-base md:text-xl lg:text-2xl text-white space-y-2 md:space-y-4 font-bold">
                   <p className="animate-zoom-in">Yo Baptiste !</p>
@@ -71,7 +71,7 @@ export default function BaptistePage() {
                     Veux-tu être mon garçon d'honneur ?
                   </p>
                   <p className="animate-zoom-in text-yellow-300" style={{ animationDelay: "3s" }}>
-                    On va faire le plus beau des goals ! ⚽💍
+                    Direction Silver III
                   </p>
                 </div>
               </div>
@@ -85,16 +85,16 @@ export default function BaptistePage() {
             >
               <Button
                 className="bg-orange-500 hover:bg-orange-400 text-white font-bold py-3 md:py-4 px-6 md:px-8 text-sm md:text-xl border-4 border-orange-700 rocket-button transform hover:scale-110 transition-all duration-200 w-full sm:w-auto"
-                onClick={() => alert("🎉 GOAL! Merci Baptiste! Tu vas être un garçon d'honneur de champion! 🏆")}
+                onClick={() => alert("Une p'tite dernière")}
               >
-                🏆 WHAT A SAVE!
+                🏆 OUI
               </Button>
               <Button
                 variant="destructive"
                 className="bg-red-500 hover:bg-red-400 text-white font-bold py-3 md:py-4 px-6 md:px-8 text-sm md:text-xl border-4 border-red-700 rocket-button transform hover:scale-110 transition-all duration-200 w-full sm:w-auto"
-                onClick={() => alert("😢 Oops! Mais on restera toujours une équipe de choc!")}
+                onClick={() => alert("Quel arrêt !")}
               >
-                💥 DEMO
+                💥 NON
               </Button>
             </div>
           )}

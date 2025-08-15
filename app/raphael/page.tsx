@@ -27,35 +27,6 @@ export default function RaphaelPage() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      {/* Minecraft-style background pattern */}
-      <div className="absolute inset-0 opacity-20">
-        <div className="grid grid-cols-20 grid-rows-20 h-full w-full">
-          {Array.from({ length: 400 }).map((_, i) => (
-            <div
-              key={i}
-              className={`border border-gray-400 ${
-                Math.random() > 0.7 ? "bg-green-600" : Math.random() > 0.5 ? "bg-brown-600" : "bg-gray-500"
-              }`}
-            />
-          ))}
-        </div>
-      </div>
-
-      {/* Floating blocks animation */}
-      <div className="absolute inset-0 pointer-events-none">
-        {Array.from({ length: 10 }).map((_, i) => (
-          <div
-            key={i}
-            className="w-4 h-4 md:w-8 md:h-8 bg-green-600 border-2 border-green-800 animate-bounce absolute"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 2}s`,
-              animationDuration: `${2 + Math.random() * 2}s`,
-            }}
-          />
-        ))}
-      </div>
 
       <div className="relative z-10 flex items-center justify-center min-h-screen p-4 md:p-8">
         <div className="text-center max-w-xs sm:max-w-md md:max-w-2xl w-full">
@@ -63,7 +34,7 @@ export default function RaphaelPage() {
             <div className="animate-fade-in-up">
               <div className="minecraft-message-box p-4 md:p-8 mb-6 md:mb-8">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-black mb-4 md:mb-6 font-mono pixelated">
-                  🎮 QUÊTE SPÉCIALE 🎮
+                  Bouges ton Cube
                 </h1>
                 <div className="text-sm sm:text-base md:text-xl lg:text-2xl text-black space-y-2 md:space-y-4 font-mono font-bold">
                   <p className="animate-typewriter">Salut Raphael !</p>
@@ -77,7 +48,7 @@ export default function RaphaelPage() {
                     Veux-tu être mon garçon d'honneur ?
                   </p>
                   <p className="animate-typewriter text-green-700" style={{ animationDelay: "3s" }}>
-                    Cette aventure sera légendaire ! 💍✨
+                    Tu es prêt à bouger ton cube ?
                   </p>
                 </div>
               </div>
@@ -91,15 +62,15 @@ export default function RaphaelPage() {
             >
               <Button
                 className="minecraft-menu-button minecraft-menu-button-green font-bold py-4 md:py-6 px-6 md:px-12 text-sm md:text-xl w-full sm:w-auto"
-                onClick={() => alert("🎉 YESSS! Merci Raphael! Tu vas être un garçon d'honneur de légende! 🎉")}
+                onClick={() => alert("🎉 Merci Raphael! Tu vas être un garçon d'honneur de légende! 🎉")}
               >
-                ⚔️ ACCEPTER LA QUÊTE
+                CUBER
               </Button>
               <Button
                 className="minecraft-menu-button minecraft-menu-button-red font-bold py-4 md:py-6 px-6 md:px-12 text-sm md:text-xl w-full sm:w-auto"
-                onClick={() => alert("😢 Dommage... mais je comprends! Tu resteras toujours mon pote de Minecraft!")}
+                onClick={() => alert("J'appelle Aypierre")}
               >
-                ❌ DÉCLINER
+                NE PAS CUBER
               </Button>
             </div>
           )}
